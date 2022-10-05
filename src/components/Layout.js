@@ -14,7 +14,7 @@ function Layout({ children }) {
   return (
     <div>
       {/* content */}
-      <div className="pb-32">{children}</div>
+      <div className="pb-32 overflow-x-hidden">{children}</div>
       {/* footer */}
       <div className="fixed bottom-0 left-0 right-0">
         <div className="flex w-full justify-center  ">
