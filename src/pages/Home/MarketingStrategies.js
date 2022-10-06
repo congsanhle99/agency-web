@@ -43,7 +43,10 @@ function MarketingStrategies() {
       <div className="grid grid-cols-2 gap-20 mt-10">
         {strategies.map((item) => {
           return (
-            <div className="border border-cusPrimary p-5 flex flex-col space-y-8 rounded transform hover:scale-105 duration-300 ">
+            <div
+              key={item.title}
+              className="border border-cusPrimary p-5 flex flex-col space-y-8 rounded transform hover:scale-105 duration-300 "
+            >
               <h1 className="mx-20 text-center py-2 -m-8 bg-white border border-cusPrimary text-2xl rounded text-cusPrimary">
                 {item.title}
               </h1>
