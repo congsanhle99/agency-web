@@ -9,7 +9,7 @@ function Home() {
     // Layout is Parents component
 
     <Layout>
-      <div className="px-32">
+      <div className="lg:px-32 px-4">
         <Intro />
         <MarketingStrategies />
         <WhyMarketing />

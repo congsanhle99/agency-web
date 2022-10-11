@@ -3,7 +3,7 @@ import React from "react";
 function WhyMarketing() {
   return (
     <div className="mt-20">
-      <h1 className="text-center text-8xl font-semibold ">
+      <h1 className="text-center text-3xl md:text-8xl font-semibold ">
         Why <span className="text-cusPrimary">Marketing</span> ?
       </h1>
       <div className="h-[500px]">

@@ -30,24 +30,24 @@ function MarketingStrategies() {
 
   return (
     <div>
-      <h1 className="text-5xl font-semibold text-cusPrimary">Want to boost your business growth?</h1>
-      <h1 className="text-7xl font-semibold mt-10">
+      <h1 className="text-3xl md:text-5xl font-semibold text-cusPrimary">Want to boost your business growth?</h1>
+      <h1 className="text-3xl md:text-7xl font-semibold mt-10">
         The <span className="text-cusPrimary">SOLUTION</span> is here...
       </h1>
-      <p className="text-gray-600 text-xl mt-10">
+      <p className="text-gray-600 md:text-xl mt-10">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro quidem nemo, eaque nisi accusamus obcaecati
         sequi voluptatibus excepturi. Labore, ipsum maiores? Blanditiis magnam vero deserunt? Laudantium blanditiis odio
         deleniti sequi?
       </p>
       {/* content */}
-      <div className="grid grid-cols-2 gap-20 mt-10">
+      <div className="grid lg:grid-cols-2 md:gap-20 mt-10 space-y-10">
         {strategies.map((item) => {
           return (
             <div
               key={item.title}
-              className="border border-cusPrimary p-5 flex flex-col space-y-8 rounded transform hover:scale-105 duration-300 "
+              className="border border-cusPrimary p-2 md:p-5 flex flex-col space-y-8 rounded transform hover:scale-105 duration-300 "
             >
-              <h1 className="mx-20 text-center py-2 -m-8 bg-white border border-cusPrimary text-2xl rounded text-cusPrimary">
+              <h1 className="mx-10 sm:mx-20 text-center py-2 -m-8 bg-white border border-cusPrimary text-2xl rounded text-cusPrimary">
                 {item.title}
               </h1>
               <img src={item.image} alt={item.title} className="lowercase h-24 w-24" />
